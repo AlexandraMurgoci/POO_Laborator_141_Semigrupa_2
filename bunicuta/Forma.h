@@ -12,15 +12,17 @@ using namespace std;
 class Forma {
 protected:
     double inaltime;
+private:
+    virtual double AriaBazei()=0;
+    double Volum();
 public:
-    //arie
-    //volum
+    Forma() : inaltime(0) {}
+    Forma(double h) : inaltime(h) {}
     void SetInaltime(double h) { inaltime = h; }
     double GetInaltime() { return inaltime; }
     //virtual se asigura ca o FormaPatrat retinuta cu un pointer sau referinta la baza se afiseaza corect
     virtual void Afisare();
-
-//    virtual double CantitateDeGem()=0;
+    double CantitateDeGem();
 };
 
 

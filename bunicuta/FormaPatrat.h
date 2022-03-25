@@ -10,9 +10,12 @@
 
 class FormaPatrat : public Forma {
     double latura;
+    double AriaBazei();
 public:
-    //TODO
+    FormaPatrat(): Forma(), latura(0) {}
+    FormaPatrat(double h, double l) : Forma(h), latura(l) {}
     void Afisare();
+    double GetLatura() { return latura; }
 };
 
 

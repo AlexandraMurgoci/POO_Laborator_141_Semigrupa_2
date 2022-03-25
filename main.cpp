@@ -10,6 +10,7 @@ int main() {
 //    lab 6: Bunicuta
     BunicutaTest bunicutaTest;
 //    bunicutaTest.TestMostenireMetode();
-    bunicutaTest.TestMostenireMetodePointeri();
+//    bunicutaTest.TestMostenireMetodePointeri();
+    bunicutaTest.TestCantitateGem();
     return 0;
 }
