@@ -5,6 +5,9 @@
 #ifndef POO_LABORATOR_141_SEMIGRUPA_2_FORMADREPTUNGHI_H
 #define POO_LABORATOR_141_SEMIGRUPA_2_FORMADREPTUNGHI_H
 
+/*
+ * Tudor Oprea
+ */
 
 #include "Forma.h"
 
